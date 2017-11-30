@@ -10,8 +10,8 @@ class Business implements Cloneable{
 		this.work=work;
 	}
 	public void showBusinessInfo(){
-		System.out.println("회사 : " + company);
-		System.out.println("업무 : " + work);
+		System.out.println("Company : " + company);
+		System.out.println("Work : " + work);
 	}
 	public void changeWork(String work){
 		this.work=work;
@@ -34,8 +34,8 @@ class PersonalInfo implements Cloneable{
 		bness=new Business(company, work);
 	}
 	public void showPersonalInfo(){
-		System.out.println("이름 : " + name);
-		System.out.println("나이 : " + age);
+		System.out.println("Name : " + name);
+		System.out.println("Age : " + age);
 		bness.showBusinessInfo();
 		System.out.println("");
 	}
